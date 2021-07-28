@@ -11,7 +11,7 @@ img6 = cv.imread('D:\Machine Vision\image\japanese temple.jpg', cv.IMREAD_UNCHAN
 
 cv.namedWindow('image', cv.WINDOW_NORMAL)
 cv.imshow('image', img1)
-k = cv.waitKey(0)
+k = cv.waitKey(0) & 0xff
 if k == 27:
     cv.destroyAllWindows()
 if k == ord('s'):
