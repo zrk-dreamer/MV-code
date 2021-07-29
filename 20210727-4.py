@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 def nothing(x):
     pass
 
-img = cv.imread('D:\Machine Vision\image\japanese temple.jpg', 0)
+img = cv.imread('D:\Machine Vision\image\test1.jpg', 0)
 cv.namedWindow('image1')
 cv.createTrackbar('min', 'image1', 0, 255, nothing)
 cv.createTrackbar('max', 'image1', 0, 255, nothing)
