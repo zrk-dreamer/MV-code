@@ -24,5 +24,5 @@ plt.subplot(323), plt.imshow(img3), plt.title('-1')
 plt.subplot(324), plt.imshow(img4), plt.title('color')
 plt.subplot(325), plt.imshow(img5), plt.title('gray')
 plt.subplot(326), plt.imshow(img6), plt.title('unchanged')
-
+plt.xticks([]), plt.yticks([])
 plt.show()
