@@ -5,6 +5,7 @@ while(True):
     # 一帧一帧捕捉
     ret, frame = cap.read()
     # 我们对帧的操作在这里
+    print(ret)
     gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
     # 显示返回的每帧
     cv.imshow('frame',gray)
